@@ -1,0 +1,26 @@
+[
+    { 
+      "name" : "Lorenzo",
+      "quote" : "blablabla",
+      "prez" : "lalalalala",
+      "img" : ""
+    },
+    { 
+        "name" : "Laurie",
+        "quote" : "blablabla",
+        "prez" : "lalalalala",
+        "img" : ""
+    },
+    { 
+        "name" : "Manon",
+        "quote" : "blablabla",
+        "prez" : "lalalalala",
+        "img" : ""
+    },
+    { 
+        "name" : "Olivier",
+        "quote" : "blablabla",
+        "prez" : "lalalalala",
+        "img" : ""
+    }  
+  ]

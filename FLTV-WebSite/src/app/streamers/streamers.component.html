@@ -1,1 +1,12 @@
 <p>streamers works!</p>
+
+<button (click)="previous()">Précédent</button> <button (click)="next()">Suivant</button>
+
+<div class="streamer" *ngFor = "let streamer of streamers; let IndexOfelement = index">
+    <div *ngIf = "IndexOfelement == index">
+        <h2>{{streamer.name}}</h2>
+        <p>{{streamer.quote}}</p>
+        <p>{{streamer.prez}}</p>
+        <img src="{{streamer.img}}" alt="image du streamer Lorenzo">
+    </div>
+</div>

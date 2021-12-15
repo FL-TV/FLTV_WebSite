@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+.content {
+    width: 80%;
+    margin: 0px auto;
+    display : flex;
+    flex-direction: row;
+}
+ 
+ 
+.embed-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0px
+}
+ 
+.chat-container {
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    float: right;
+}
+             
+.embed-container iframe {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+ 
+.chat-container iframe {
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: right;
+}

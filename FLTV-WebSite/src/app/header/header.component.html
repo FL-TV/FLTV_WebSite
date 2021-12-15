@@ -1,23 +1,27 @@
-<p>header works!</p>
-<nav>
-    <ul>
-        <li>
-            <a routerLink= "/home">Home</a>
-        </li>
-        <li>
-            <a routerLink= "/prez">Prez</a>
-        </li>
-        <li>
-            <a routerLink= "/streamers">Streamers</a>
-        </li>
-        <li>
-            <a routerLink= "/planning">Planning</a>
-        </li>
-        <li>
-            <a routerLink= "/clips">Clips</a>
-        </li>
-        <li>
-            <a routerLink= "/vods">Vods</a>
-        </li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Dropdown Menu using HTML and CSS</title>
+  <link rel="stylesheet" type="text/css" href="header.component.css">
+  <link rel="fontaweson" type="fontawesome/css" href="../../assets/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <div class="container">      
+      <nav>
+        
+        <ul> 
+          <img src="../../assets/img/FLTV_LOGO_HORIZONTAL.png">         
+          <li class="visible"><a routerLink= "/home"><i class="fa fa-home"></i> HOME</a></li>
+          <li class="visible"><a routerLink= "/prez"><i class="fa fa-cogs"></i> PREZ <i class="fa fa-angle-double-down"></i></a>       
+          <li class="visible"><a routerLink= "/streamers"><i class="fa fa-cogs"></i> STREAMERS</a></li>      
+          <li class="visible"><a routerLink= "/planning"><i class="fa fa-briefcase"></i> PLANNING</a></li>
+          <li class="visible"><a routerLink= "/clips"><i class="fa fa-list-ul"></i> CLIPS</a></li>
+          <li class="visible"><a routerLink= "/vods"><i class="fa fa-bullhorn"></i>VODS</a></li>
+        </ul>
+      </nav>
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Hanson-Bold' ;
+    src: url(../../assets/police/Hanson-Bold.otf);
+    src: url(../../assets/police/Hanson-Bold.ttf);
+}
+
+html{
+    margin:0
+}
+body{
+    margin:0;
+    width: 100%;
+    font-family: 'Hanson-Bold';
+    color: #fff;
+}
+
+
+nav{
+    background-color: #1a1919;
+    border-bottom: 5px solid #ffcc00;
+    
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+nav ul li{
+  display: inline-block;
+  background-color: #1a1919
+}
+nav a{
+  display: block;
+  padding: 0 10px;
+  color: #fff;
+  line-height: 60px;
+  font-size: 20px;
+  text-decoration: none;
+  align-items: center;
+}
+nav ul ul{
+  display: none;
+  position: absolute;
+  top: 60px;
+}
+nav a:hover{
+  background-color: #0a0a83;
+}
+
+.background-button-accueil {
+    background-color: #ffcc00;
+    width: 90%;
+}
+
+img{
+    width :15%;
+}
+
+
+
+
+

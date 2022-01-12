@@ -11,6 +11,7 @@ import { StreamersComponent } from './streamers/streamers.component';
 import { PlanningComponent } from './planning/planning.component';
 import { ClipsComponent } from './clips/clips.component';
 import { VodsComponent } from './vods/vods.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { VodsComponent } from './vods/vods.component';
     StreamersComponent,
     PlanningComponent,
     ClipsComponent,
-    VodsComponent
+    VodsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,1 +1,16 @@
 <p>prez works!</p>
+
+<button (click)="previous()">Précédent</button> <button (click)="next()">Suivant</button>
+
+<div class="streamer" *ngFor="let pole of poles; let IndexOfelement = index">
+    <div *ngIf="IndexOfelement == index">
+        <h2>{{pole.pole}}</h2>
+        <div *ngFor="let personne of pole.personnes">
+            <h3>{{personne.name}}</h3>
+            <h4>{{personne.title}} </h4>
+            <p>{{personne.quote}}</p>
+            <p>{{personne.prez}}</p>
+            <img src="{{personne.img}}" alt="image du streamer Lorenzo">
+        </div>
+    </div>
+</div>

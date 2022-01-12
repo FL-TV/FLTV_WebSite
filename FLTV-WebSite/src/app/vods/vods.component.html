@@ -1,1 +1,19 @@
 <p>vods works!</p>
+<!-- 
+    Recuperer l'id de la chaine
+    Recuperer l'id de la playlist
+    recuperer la list des items de la playlist
+    pour chaque item :
+        afficher une iframe avec l'id de l'item
+
+    https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails&playlistId=PLTMQN95s6RIJSvglPk3qGqnS39p3N-Tiq&key=AIzaSyBXVykoRF-IqIflqW8iPIjwoLh7wexZnQ0
+ -->
+
+<div class="container">
+    <div class="itemContainer" *ngFor="let vod of vods">
+        <div class="video">
+            <iframe [src]="sanitizeURL('https://www.youtube.com/embed/'+vod.contentDetails.videoId)" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+</div>

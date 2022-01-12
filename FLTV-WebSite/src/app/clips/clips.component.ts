@@ -9,7 +9,7 @@ import { DomSanitizer } from "@angular/platform-browser";
 })
 export class ClipsComponent implements OnInit {
 
-  constructor(private http: HttpClient, private sanitizer: DomSanitizer ) { }
+  constructor(private http: HttpClient, private sanitizer: DomSanitizer) { }
 
   url = "https://api.twitch.tv/helix/clips?broadcaster_id=737404029"
   
@@ -20,16 +20,13 @@ export class ClipsComponent implements OnInit {
   
   clips: any = []
 
-  ngOnInit(): void {
-
+  ngOnInit() {
     this.http.get(this.url, {headers:this.headers}).subscribe((data : any) => {
       //console.log(data.data)
       this.clips = data.data
       console.log(this.clips)
     })
-
   }
-
 
   sanitizeURL(url : string){
     return this.sanitizer.bypassSecurityTrustResourceUrl(url)

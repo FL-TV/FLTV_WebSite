@@ -26,25 +26,32 @@ nav{
     text-align: center;
     background-color: #1a1919;
     border-top: 5px solid #ffcc00; 
+    padding: 10px 0px 10px 0px
 }
 
 nav ul{
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 nav ul li{
   display: inline-block;
   background-color: #1a1919
 }
 nav a{
   display: block;
-  padding: 0 10px;
+
   color: #fff;
 
   font-size: 10px;
   text-decoration: none;
 }
+
+nav a 
 nav ul ul{
   display: none;
   position: absolute;
@@ -55,8 +62,13 @@ nav a:hover{
 }
 
 #picto {
-    width : 15px;
+    width : 30px;
     padding : 0;
     margin: 0;
     justify-content: center;
 }
+
+.logo_rs {
+  width: 30%;
+}
+

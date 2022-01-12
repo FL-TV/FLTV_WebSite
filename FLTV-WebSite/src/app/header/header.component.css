@@ -1,21 +1,25 @@
 @font-face {
-    font-family: 'Hanson-Bold' ;
-    src: url(../../assets/police/Hanson-Bold.otf);
-    src: url(../../assets/police/Hanson-Bold.ttf);
+    font-family: 'Obitron-regular';
+    src: url(../../assets/police/Orbitron-Regular.ttf)
 }
 
 html{
-    margin:0
+    margin:0;
 }
 body{
+    
     margin:0;
     width: 100%;
-    font-family: 'Hanson-Bold';
+    font-family: 'Obitron-regular';
     color: #fff;
 }
 
 
+
+
 nav{
+    text-align: center;
+    width: 100%;
     background-color: #1a1919;
     border-bottom: 5px solid #ffcc00;
     
@@ -24,7 +28,6 @@ nav ul{
   padding: 0;
   margin: 0;
   list-style: none;
-  position: relative;
 }
 nav ul li{
   display: inline-block;
@@ -35,9 +38,8 @@ nav a{
   padding: 0 10px;
   color: #fff;
   line-height: 60px;
-  font-size: 20px;
+  font-size: 10px;
   text-decoration: none;
-  align-items: center;
 }
 nav ul ul{
   display: none;
@@ -48,14 +50,12 @@ nav a:hover{
   background-color: #0a0a83;
 }
 
-.background-button-accueil {
-    background-color: #ffcc00;
-    width: 90%;
+#logomenu{
+  width :75px;
+  margin-bottom: 0;
+  line-height: 0;
 }
 
-img{
-    width :15%;
-}
 
 
 

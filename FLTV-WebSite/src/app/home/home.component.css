@@ -6,14 +6,26 @@
  
 .content {
     width: 80%;
-    margin-top: 10%;
-    margin-left: auto;
+    margin-top: 3%;
     align-items: auto;
     display : flex;
     flex-direction: row;
 }
- 
- 
+
+@font-face {
+    font-family: 'Obitron-Bold';
+    src: url(../../assets/police/Orbitron-Bold.ttf)
+}
+
+h1{
+    
+    margin-bottom: 5px;
+    bottom : 0;
+    font-size: 10px;
+    font-family: 'Obitron-Bold';
+    color: rgb(0, 0, 0);
+}
+
 .embed-container {
     height: 0;
     width: 100%;
@@ -25,7 +37,7 @@
 }
  
 .chat-container {
-    height: 0;
+    height: 100%;
     width: 100%;
     padding-bottom: 56.25%;
     overflow: hidden;
@@ -46,10 +58,28 @@
 }
  
 .chat-container iframe {
-    width: 33%;
-    height: 100%;
-    position: absolute;
     top: 0;
     left: 0;
     float: right;
+    height : 80%;
+}
+
+.live_stream {
+    width: 120%;
+    margin-left: 15%;
+}
+
+.chat {
+    margin-left : 5%
+}
+
+div.chat-container {
+    padding : 0
+}
+
+div.chat h1 {
+    margin-bottom: 20%;
+}
+.stream-chat-header {
+height: 0 
 }

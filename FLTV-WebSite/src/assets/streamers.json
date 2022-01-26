@@ -1,26 +1,32 @@
 [
-    { 
-      "name" : "Lorenzo",
-      "quote" : "blablabla",
-      "prez" : "lalalalala",
-      "img" : ""
+    {
+        "name": "Lorenzo",
+        "quote": "blablabla",
+        "prez": "lalalalala",
+        "img": "./../../assets/img/lorenzo.png"
     },
-    { 
-        "name" : "Laurie",
-        "quote" : "blablabla",
-        "prez" : "lalalalala",
-        "img" : ""
+    {
+        "name": "Baptiste",
+        "quote": "blablabla",
+        "prez": "lalalalala",
+        "img": "./../../assets/img/baptiste.png"
     },
-    { 
-        "name" : "Manon",
-        "quote" : "blablabla",
-        "prez" : "lalalalala",
-        "img" : ""
+    {
+        "name": "Manon",
+        "quote": "blablabla",
+        "prez": "lalalalala",
+        "img": "./../../assets/img"
     },
-    { 
-        "name" : "Olivier",
-        "quote" : "blablabla",
-        "prez" : "lalalalala",
-        "img" : ""
-    }  
-  ]
+    {
+        "name": "Olivier",
+        "quote": "blablabla",
+        "prez": "lalalalala",
+        "img": "./../../assets/img/olivier.png"
+    },
+    {
+        "name": "Bastien",
+        "quote": "blablabla",
+        "prez": "lalalalala",
+        "img": "./../../assets/img/bastien.png"
+    }
+]

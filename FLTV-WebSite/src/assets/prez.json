@@ -1,0 +1,142 @@
+[
+    {
+        "pole" : "Direction",
+        "personnes": [
+            {
+                "name": "Olivier Philibert",
+                "title":"Directeur",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Manon Boulain",
+                "title":"Co-Directrice",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            }
+        ]
+    },
+
+    {
+        "pole" : "Stream",
+        "personnes": [
+            {
+                "name": "Baptiste Estella",
+                "title":"Lead Stream",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Bastien Maurin",
+                "title":"Lead Stream",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            }
+        ]
+    },
+
+    {
+        "pole" : "Developpement",
+        "personnes": [
+            {
+                "name": "Lorenzo Logos",
+                "title":"Lead Dev",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Laurie Jeham",
+                "title":"Développeuse",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            }
+        ]
+    },
+
+    {
+        "pole" : "Création / Design",
+        "personnes": [
+            {
+                "name": "Gaëlle Devineau",
+                "title":"Lead Créa",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Léa ",
+                "title":"Créative",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Enzo",
+                "title":"Créatif",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            }
+        ]
+    },
+
+    {
+        "pole" : "Market",
+        "personnes": [
+            {
+                "name": "Dorian Delcroix",
+                "title":"Lead Market",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Esteve Quiatol",
+                "title":"Market",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Sam Aguera",
+                "title":"Market",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            }
+        ]
+    },
+
+    {
+        "pole" : "3D",
+        "personnes": [
+            {
+                "name": "Lucy Riess",
+                "title":"coup dur",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Lison Blazikowski",
+                "title":"coup dur",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            },
+            {
+                "name": "Théo Scorletti",
+                "title":"coup dur",
+                "quote": "blablabla",
+                "prez": "lalalalala",
+                "img": ""
+            }
+        ]
+    }
+]

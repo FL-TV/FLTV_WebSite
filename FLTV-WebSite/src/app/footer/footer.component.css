@@ -24,8 +24,7 @@ body{
 
 nav{
     text-align: center;
-    background-color: #1a1919;
-    border-top: 5px solid #ffcc00; 
+    background-color: #000000;
     padding: 10px 0px 10px 0px
 }
 
@@ -40,7 +39,7 @@ nav ul{
 
 nav ul li{
   display: inline-block;
-  background-color: #1a1919
+  background-color: #000000
 }
 nav a{
   display: block;
@@ -72,7 +71,18 @@ nav a:hover{
   width: 30%;
 }
 
+<<<<<<< HEAD
 
  .toggleFooter img{
   width: 50px;
 }
+=======
+#footer_text {
+  margin-left : 7%
+}
+
+.copyright {
+  margin-left:2.25em
+}
+
+>>>>>>> c147d7c099afb42bd9ad555f337b776363b11a36

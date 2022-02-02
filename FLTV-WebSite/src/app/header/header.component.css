@@ -3,26 +3,29 @@
     src: url(../../assets/police/Orbitron-Regular.ttf)
 }
 
-html{
-    margin:0;
-}
+
 body{
     
     margin:0;
     width: 100%;
     font-family: 'Obitron-regular';
     color: #fff;
+    background-image:url(../../assets/img/degrade_header.png);
+    background-size: contain;
+    
 }
 
-
-
+html {
+  background-image: url(../../assets/img/lueur_bleu.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
 
 nav{
     text-align: center;
-    width: 100%;
-    background-color: #1a1919;
-    border-bottom: 5px solid #ffcc00;
-    
+    width: 100%; 
 }
 nav ul{
   padding: 0;
@@ -35,7 +38,6 @@ nav ul{
 }
 nav ul li{
   display: inline-block;
-  background-color: #1a1919
 }
 nav a{
   display: block;
@@ -61,7 +63,9 @@ nav a:hover{
   padding-bottom : 0;
 }
 
-
+#neon {
+  width : 23%
+}
 
 
 

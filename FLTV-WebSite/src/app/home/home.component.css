@@ -7,7 +7,7 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
- 
+
 .content {
     margin-top: 2%;
     align-items: auto;
@@ -16,6 +16,8 @@ body {
     margin-left: 15%;
 }
 
+<<<<<<< HEAD
+=======
 @font-face {
     font-family: 'Hanson-Bold';
     src: url(../../assets/police/Hanson-Bold.ttf)
@@ -30,6 +32,7 @@ h1{
     color: rgb(255, 255, 255);
 }
 
+>>>>>>> c147d7c099afb42bd9ad555f337b776363b11a36
 .embed-container {
     height: 0;
     width: 100%;
@@ -39,7 +42,7 @@ h1{
     display: inline-block;
     margin: 0px
 }
- 
+
 .chat-container {
     height: 116%;
     width: 100%;
@@ -50,7 +53,7 @@ h1{
     margin: 0px;
     float: right;
 }
-             
+
 .embed-container iframe {
     width: 100%;
     height: 100%;
@@ -60,7 +63,7 @@ h1{
     left: 0;
     float: left;
 }
- 
+
 .chat-container iframe {
     top: 0;
     left: 0;

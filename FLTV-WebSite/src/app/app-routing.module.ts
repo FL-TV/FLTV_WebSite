@@ -9,6 +9,7 @@ import { VodsComponent } from './vods/vods.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'prez', component: PrezComponent},
   {path: 'streamers', component: StreamersComponent},
   {path: 'planning', component: PlanningComponent},
@@ -17,7 +18,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

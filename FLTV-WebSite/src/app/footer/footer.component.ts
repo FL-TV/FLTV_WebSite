@@ -8,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() { }
+  isFooterToggled = false
 
   ngOnInit(): void {
+  }
+
+  toggleFooter(){
+    this.isFooterToggled = !this.isFooterToggled
+    console.log(this.isFooterToggled)
   }
 
 }

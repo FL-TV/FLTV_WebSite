@@ -70,9 +70,10 @@ div.content {
     align-self: center;
     margin-left : 40px
 }
-.fleche {
+img.fleche {
     margin: auto;
     width: 30px;
     margin-right: 40px;
 
 }
+

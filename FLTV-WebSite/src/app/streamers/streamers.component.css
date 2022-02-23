@@ -70,3 +70,14 @@ div.content {
 
 }
 
+img.fleche.fleched {
+    position: absolute;
+    top: 50%;
+    right: 27%;
+}
+
+img.fleche.flecheg {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}

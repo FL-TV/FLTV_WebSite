@@ -16,8 +16,8 @@
                         <div *ngIf = "IndexOfelement == index">
                             <h2>{{streamer.name}}</h2>
                             <img id="imagestreamer" src="{{streamer.img}}" alt="image du streamer Lorenzo">
-                            <p>{{streamer.quote}}</p>
-                            <p>{{streamer.prez}}</p>
+                            <p class="quote">{{streamer.quote}}</p>
+                            <p class="prez">{{streamer.prez}}</p>
                         </div>
                     </div> 
                 <div class="fleche2"><img class="fleche fleched" src="../../assets/img/fleche.png" (click)="next()"></div>

@@ -1,11 +1,6 @@
-body {
-    background-image: none;
-}
-
-.container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+@font-face {
+    font-family: 'Hanson-Bold';
+    src: url(../../assets/police/Hanson-Bold.ttf)
 }
 
 .content {
@@ -16,12 +11,6 @@ body {
     margin-left: 15%;
 }
 
-<<<<<<< HEAD
-=======
-@font-face {
-    font-family: 'Hanson-Bold';
-    src: url(../../assets/police/Hanson-Bold.ttf)
-}
 
 h1{
     
@@ -32,7 +21,6 @@ h1{
     color: rgb(255, 255, 255);
 }
 
->>>>>>> c147d7c099afb42bd9ad555f337b776363b11a36
 .embed-container {
     height: 0;
     width: 100%;
@@ -79,11 +67,11 @@ h1{
     margin-left : 5%
 }
 
-div.chat-container {
+/* div.chat-container {
     padding : 0
 }
 
 
 .stream-chat-header {
 height: 0 
-}
+} */

@@ -1,44 +1,25 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Dropdown Menu using HTML and CSS</title>
-  <link rel="stylesheet" type="text/css" href="footer.component.css">
-</head>
 
-<body>
-  <!-- <div class="container">      
-        <nav>        
-          <ul class="picto_footer"> 
-            <li><a><img class="logo_rs" src="../../assets/img/discord.png"> </a></li>       
-            <li><a><img class="logo_rs" src="../../assets/img/instagram.png"> </a></li>       
-            <li ><a><img class="logo_rs" src="../../assets/img/twitch.png"></a></li> 
-            <li><a> <img id="picto" src="../../assets/img/Picto_FLTV_monochromeblanc_rvb.png"> </a></li>     
-            <li><a ><img class="logo_rs" src="../../assets/img/twitter.png"></a></li>
-            <li><a ><img class="logo_rs" src="../../assets/img/youtube.png"></a></li>
-            <li><a><img class="logo_rs" src="../../assets/img/Facebook.png"> </a></li>
-          </ul>     
-          <ul id="footer_text">        
-            <li class="copyright"><a> Conditions d'utilisation </a></li>       
-            <li class="copyright"><a>Utilisation des cookies</a></li>      
-            <li class="copyright"><a >Copyright © 2022. Tous les droits sont réservés </a></li>
-          </ul>
-        </nav>
-      </div> -->
   <div class="toggleFooter">
     <img src="../../assets/img/FLTV_PICTO_2.png" alt="Toggle the footer" (click)="toggleFooter()">
   </div>
-  <div class="container" *ngIf="isFooterToggled">
+
+  <div class="container" *ngIf="isFooterToggled" [@inOutFooter]>
     <nav class="menuFooter" style="color: black;">
       <ul class="picto">
-        coucousdfvgvwfxcgbxwdfhsfghdxghsfdhsdgf
+        <li><a><img class="logo_rs" src="../../assets/img/discord.png"> </a></li>
+        <li><a><img class="logo_rs" src="../../assets/img/instagram.png"> </a></li>
+        <li><a><img class="logo_rs" src="../../assets/img/twitch.png"></a></li>
+        <li><a> <img id="picto" src="../../assets/img/Picto_FLTV_monochromeblanc_rvb.png"> </a></li>
+        <li><a><img class="logo_rs" src="../../assets/img/twitter.png"></a></li>
+        <li><a><img class="logo_rs" src="../../assets/img/youtube.png"></a></li>
+        <li><a><img class="logo_rsf" src="../../assets/img/Facebook.png"> </a></li>
       </ul>
       <ul class="text">
-        xdfwgsdxfhsrfgt
+        <li class="copyright"><a> Conditions d'utilisation </a></li>
+        <li class="copyright"><a>Utilisation des cookies</a></li>
+        <li class="copyright"><a>Copyright © 2022. Tous les droits sont réservés </a></li>
       </ul>
     </nav>
   </div>
-</body>
 
-</html>

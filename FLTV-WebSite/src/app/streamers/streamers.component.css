@@ -43,12 +43,15 @@ p {
     align-items: auto;
     display : flex;
     flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .streamer {
     text-align: center;
     font-family: 'Orbitron-Regular';
     color: rgb(255, 255, 255);
+
 }
 
 div.content {
@@ -67,6 +70,7 @@ div.content {
     margin: auto;
     width: 30px;
     margin-right: 40px;
+    cursor: pointer;
 
 }
 
@@ -74,7 +78,7 @@ h2 {
     font-size : 18px
 }
 
-img.fleche.fleched {
+/* img.fleche.fleched {
     position: absolute;
     top: 50%;
     right: 27%;
@@ -84,8 +88,19 @@ img.fleche.flecheg {
     position: absolute;
     top: 50%;
     left: 30%;
-}
+} */
 
 p.prez {
     margin-top: 4%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.streamers{
+    margin: 0 auto;
+    display: block;
+}
+
+.back{
+    color: white;
 }

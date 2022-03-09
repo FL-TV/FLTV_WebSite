@@ -1,11 +1,6 @@
-body {
-    background-image: none;
-}
-
-.container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+@font-face {
+    font-family: 'Hanson-Bold';
+    src: url(../../assets/police/Hanson-Bold.ttf)
 }
  
 .content {
@@ -76,13 +71,14 @@ h1{
     margin-left : 5%
 }
 
-div.chat-container {
+/* div.chat-container {
     padding : 0
 }
 
 
 .stream-chat-header {
 height: 0 
+<<<<<<< HEAD
 }
 
 h1.videotitle {
@@ -90,3 +86,6 @@ h1.videotitle {
     justify-content: center;
     margin-top: 8%;
 }
+=======
+} */
+>>>>>>> 460c88156d0aaa22c93b39b7ed2974775eb78469

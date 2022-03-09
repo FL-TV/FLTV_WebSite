@@ -1,47 +1,51 @@
 @font-face {
-    font-family: 'Obitron-regular';
-    src: url(../../assets/police/Orbitron-Regular.ttf)
+  font-family: 'Obitron-regular';
+  src: url(../../assets/police/Orbitron-Regular.ttf)
 }
 
-html{
-    margin:0;
+html {
+  margin: 0;
 }
-body{
-    
-    margin:0;
-    bottom : 0;
-    width: 100%;
-    font-family: 'Obitron-regular';
-    color: #fff;
+
+body {
+
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Obitron-regular';
+  color: #fff;
 }
 
 .container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
-nav{
-    text-align: center;
-    background-color: #000000;
-    padding: 10px 0px 10px 0px
+nav {
+  text-align: center;
+  background-color: #000000;
+  padding: 10px 0px 10px 0px
 }
 
-nav ul{
+nav ul {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 50px;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
-  background-color: #000000
+  background-color: #000000;
+  cursor: pointer;
 }
-nav a{
+
+nav a {
   display: block;
 
   color: #fff;
@@ -50,28 +54,37 @@ nav a{
   text-decoration: none;
 }
 
-nav a 
-nav ul ul{
-  display: none;
-  position: absolute;
-  top: 60px;
-}
-nav a:hover{
+
+nav a:hover {
   background-color: #0a0a83;
 }
 
 #picto {
-    width : 30px;
-    padding : 0;
-    margin: 0;
-    justify-content: center;
+  width: 50px;
+
 }
 
 .logo_rs {
-  width: 30%;
+  width: 20px;
 }
 
+.logo_rsf {
+  width: 10px;
+}
 
- .toggleFooter img{
+.toggleFooter {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.toggleFooter img {
   width: 50px;
+}
+
+ul.text li a {
+  font-size: 15px;
+  font-family: 'Obitron-regular';
 }

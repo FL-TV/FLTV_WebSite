@@ -15,7 +15,7 @@ export class ClipsComponent implements OnInit {
   
   headers = { 
     'Client-Id': 'gmoua84o7ri07ene1n5wma4mn35z5s',
-    'Authorization' : 'Bearer gfxrobiw61o6cy2qahb6o1u2p1sgu9'
+    'Authorization' : 'Bearer abxtbnzl537x9edtukof7nksqons6r'
   }
   
   clips: any = []

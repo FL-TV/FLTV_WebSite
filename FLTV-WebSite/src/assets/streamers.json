@@ -7,26 +7,26 @@
     },
     {
         "name": "Baptiste",
-        "quote": "blablabla",
-        "prez": "lalalalala",
+        "quote": "« C'est pas parce qu'on a rien à dire qu'il faut fermer sa gueule. » - Michel AUDIARD",
+        "prez": "Streamer depuis bientôt 3 ans, je vous propose d'embarquer avec moi pour un merveilleux voyage au sein des jeux multijoueur ainsi que dans le monde passionnément chronophage que sont les jeux de farming mais néanmoins exigeant tel que monster hunter et autre souls en tout genre. N'hésitez donc pas à passer donner de votre force sur le lives !",
         "img": "./../../assets/img/baptiste.png"
     },
     {
         "name": "Manon",
-        "quote": "blablabla",
-        "prez": "lalalalala",
-        "img": "./../../assets/img"
+        "quote": "« Mon père disait toujours: dans la vie y'a pas de grand, y'a pas de petit;  la bonne longueur pour les jambes, c'est quand les pieds touchent bien par terre. » Coluche",
+        "prez": "Streameuse du haut de ses 1m56, elle sait se faire entendre. Principalement joueuse de jeu indépendant en tout genre et une préférence pour les jeux d’horreur (alors qu’elle est une vraie flipette). Elle a commencé sa passion du jeu vidéo avec les MMORPG (World of Warcraft classique tu connais). Son stream se veut hybride : jeu vidéo, discussion, dessin, création en tout genre… Toujours de bonne humeur, elle prend plaisir à échanger avec la communauté (surtout lors de sa PLS avec un jeu d’épouvante…).",
+        "img": "./../../assets/img/manon.png"
     },
     {
         "name": "Olivier",
-        "quote": "blablabla",
-        "prez": "lalalalala",
+        "quote": "Il justifie ses 1600 parties par an à travers la citation suivante : « C’est en forgeant qu’on devient forgeron. »",
+        "prez": "Deasp alias Deasp, joueur League of legend et TFT principalement. Passionné, et en recherche constante de perfection, il améliore son skill au quotidien pour atteindre l'objectif ultime...le CHALLENGER. Il répondra sans aucun scrupule à vos questions les plus intimes dans la bonne humeur.",
         "img": "./../../assets/img/olivier.png"
     },
     {
         "name": "Bastien",
-        "quote": "blablabla",
-        "prez": "lalalalala",
+        "quote": "« Après la mort, la vie » - Anivia 2022 ",
+        "prez": "Fan de jeux vidéo et de stream depuis 12 ans plus précisément de l’univers League Of Legend, il y’a de grandes chances pour que mes streams ne soient exclusivement du LOL mais je ne suis pas fermé aux autres jeux, je suis notamment collectionneur de jeux rétro il est donc possible de voir des runs de mario bros sur NES. En ce qui concerne l’ambiance, la place n’est pas vraiment à l’amusement mais plutôt au tryharding dans le but de gagner le maximum de LP et écraser la concurrence pour atteindre le toit de l’Europe.",
         "img": "./../../assets/img/bastien.png"
     }
 ]

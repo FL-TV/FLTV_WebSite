@@ -1,16 +1,37 @@
-<p>prez works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="prez.component.CSS" rel="componentCSS" href="prez.component.css">
+    <script type="component.js" src="prez.component.ts"></script>
+    <title>Document</title>
+</head>
+<body>
 
-<button (click)="previous()">Précédent</button> <button (click)="next()">Suivant</button>
-
-<div class="streamer" *ngFor="let pole of poles; let IndexOfelement = index">
-    <div *ngIf="IndexOfelement == index">
-        <h2>{{pole.pole}}</h2>
-        <div *ngFor="let personne of pole.personnes">
-            <h3>{{personne.name}}</h3>
-            <h4>{{personne.title}} </h4>
-            <p>{{personne.quote}}</p>
-            <p>{{personne.prez}}</p>
-            <img src="{{personne.img}}" alt="image du streamer Lorenzo">
+    <div class="container">
+        <div class="livrcontent">
+            <h1>La Team French Lamantin TV</h1>
+            <div class="content">               
+                <div class="fleche2"><img class="fleche" src="../../assets/img/flechegauche.png" (click)="previous()"></div>             
+                    <div class="streamer" *ngFor="let pole of poles; let IndexOfelement = index">                
+                        <div *ngIf = "IndexOfelement == index">
+                            <h2>{{pole.pole}}</h2>
+                            <div class="presentation">
+                                <div *ngFor="let personne of pole.personnes">
+                                    <h3>{{personne.name}}</h3>
+                                    <h4>{{personne.title}} </h4>
+                                    <img src="{{personne.img}}" alt="image du streamer Lorenzo">
+                                    <p>{{personne.quote}}</p>
+                                    <p>{{personne.prez}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                <div class="fleche2"><img class="fleche" src="../../assets/img/fleche.png" (click)="next()"></div>
+            </div>
         </div>
-    </div>
-</div>
+    </div> 
+</body>
+</html>

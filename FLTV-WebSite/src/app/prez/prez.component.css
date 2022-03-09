@@ -1,0 +1,79 @@
+body {
+    background-image: none;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content {
+    margin : 5%
+}
+
+@font-face {
+    font-family: 'Hanson-Bold';
+    src: url(../../assets/police/Hanson-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Orbitron-Regular';
+    src: url(../../assets/police/Orbitron-Regular.ttf);
+}
+
+h1{ 
+    margin-bottom: 5px;
+    margin-top: 2%;
+    bottom : 0;
+    font-size: 12px;
+    font-family: 'Hanson-Bold';
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 9px;
+}
+
+p {
+    margin: 0;
+}
+.content {
+    align-items: auto;
+    display : flex;
+    flex-direction: row;
+    font-family: 'Hanson-Bold';
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.pole {
+    text-align: center;
+    font-family: 'Orbitron-Regular';
+    color: rgb(255, 255, 255);
+}
+
+.presentation {
+    display: inline-block;
+}
+
+div.content {
+    display: flex;
+    justify-content: center;
+}
+#imagestreamer {
+    width : 150px
+}
+
+.fleche2 {
+    align-self: center;
+    margin-left : 40px
+}
+img.fleche {
+    margin: auto;
+    width: 30px;
+    margin-right: 40px;
+
+}
+

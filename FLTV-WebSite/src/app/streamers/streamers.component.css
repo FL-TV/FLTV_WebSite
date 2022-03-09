@@ -70,3 +70,22 @@ div.content {
 
 }
 
+h2 {
+    font-size : 18px
+}
+
+img.fleche.fleched {
+    position: absolute;
+    top: 50%;
+    right: 27%;
+}
+
+img.fleche.flecheg {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+p.prez {
+    margin-top: 4%;
+}

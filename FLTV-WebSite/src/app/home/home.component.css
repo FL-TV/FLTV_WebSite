@@ -1,3 +1,7 @@
+body {
+    background-image: none;
+}
+
 @font-face {
     font-family: 'Hanson-Bold';
     src: url(../../assets/police/Hanson-Bold.ttf)

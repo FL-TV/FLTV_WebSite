@@ -11,16 +11,17 @@ body{
     font-family: 'Obitron-regular';
     color: #fff;
     background-image:url(../../assets/img/degrade_header.png);
-    background-size: contain;
-    
+    background-size: contain;  
 }
 
-html {
-  background-image: url(../../assets/img/lueur_bleu.png);
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
+#lueurbleu {
+  position: absolute;
+  display: flex;
+  top: 25px;
+  left: 35%;
+  width: 29%;
+  z-index: 0;
+  bottom: 79%;
 }
 
 nav{
@@ -34,10 +35,12 @@ nav ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 5px 10px 5px;
+  padding: 10px 5px 10px 13px;
+
 }
 nav ul li{
   display: inline-block;
+  z-index: 4;
 }
 nav a{
   display: block;
@@ -48,12 +51,15 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #0a0a83;
+  background-color: #0000F8;
+  border-radius: 6px;
+  
 }
 
 
 #buttonmenu {
   height: fit-content;
+  background: none;
 }
 
 #logomenu{
@@ -61,14 +67,25 @@ nav a:hover{
   margin-bottom: 0;
   line-height: 0;
   padding-bottom : 0;
+  text-decoration: none;
 }
 
 #neon {
   width : 23%
 }
 
+.picto {
+  margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 10px 32px;
+}
 
-
+.logo_rs {
+  width: 30%;
+}
 
 
 

@@ -5,6 +5,13 @@
         "prez": "lalalalala",
         "img": "./../../assets/img/lorenzo.png"
     },
+    
+    {
+        "name": "Olivier",
+        "quote": "Il justifie ses 1600 parties par an à travers la citation suivante : « C’est en forgeant qu’on devient forgeron. »",
+        "prez": "Deasp alias Deasp, joueur League of legend et TFT principalement. Passionné, et en recherche constante de perfection, il améliore son skill au quotidien pour atteindre l'objectif ultime...le CHALLENGER. Il répondra sans aucun scrupule à vos questions les plus intimes dans la bonne humeur.",
+        "img": "./../../assets/img/olivier.png"
+    },
     {
         "name": "Baptiste",
         "quote": "« C'est pas parce qu'on a rien à dire qu'il faut fermer sa gueule. » - Michel AUDIARD",
@@ -16,12 +23,6 @@
         "quote": "« Mon père disait toujours: dans la vie y'a pas de grand, y'a pas de petit;  la bonne longueur pour les jambes, c'est quand les pieds touchent bien par terre. » Coluche",
         "prez": "Streameuse du haut de ses 1m56, elle sait se faire entendre. Principalement joueuse de jeu indépendant en tout genre et une préférence pour les jeux d’horreur (alors qu’elle est une vraie flipette). Elle a commencé sa passion du jeu vidéo avec les MMORPG (World of Warcraft classique tu connais). Son stream se veut hybride : jeu vidéo, discussion, dessin, création en tout genre… Toujours de bonne humeur, elle prend plaisir à échanger avec la communauté (surtout lors de sa PLS avec un jeu d’épouvante…).",
         "img": "./../../assets/img/manon.png"
-    },
-    {
-        "name": "Olivier",
-        "quote": "Il justifie ses 1600 parties par an à travers la citation suivante : « C’est en forgeant qu’on devient forgeron. »",
-        "prez": "Deasp alias Deasp, joueur League of legend et TFT principalement. Passionné, et en recherche constante de perfection, il améliore son skill au quotidien pour atteindre l'objectif ultime...le CHALLENGER. Il répondra sans aucun scrupule à vos questions les plus intimes dans la bonne humeur.",
-        "img": "./../../assets/img/olivier.png"
     },
     {
         "name": "Bastien",

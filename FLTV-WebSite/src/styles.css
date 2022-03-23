@@ -4,6 +4,22 @@ body {
     background-image: url(assets/img/wallpaper.jpg);
     width: 100%;
     height: 100%;
-    
+    overflow-y: overlay;
+
 }
 
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1b0d497a;        /* color of the tracking area */
+
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0000ff6c;    /* color of the scroll thumb */
+    border-radius: 50px;       /* roundness of the scroll thumb */
+    
+  }

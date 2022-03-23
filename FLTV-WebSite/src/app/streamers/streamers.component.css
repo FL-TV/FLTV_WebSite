@@ -92,19 +92,6 @@ img.fleche.flecheg {
 
 p.prez {
     margin-top: 4%;
-<<<<<<< HEAD
-    text-align: justify;
-    text-align-last: center;
-}
-
-.streamers{
-    margin: 0 auto;
-    display: block;
-}
-
-.back{
-    color: white;
-=======
 }
 
 .contour {
@@ -114,5 +101,4 @@ p.prez {
     background: #eee;
     margin: auto;
     padding: 15px 25px;
->>>>>>> bd2b06b44d08fb3c7339667e0105a7494fbc94f9
 }

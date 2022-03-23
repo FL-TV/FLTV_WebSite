@@ -16,22 +16,17 @@
                   </div>
               </div>
             </div>
-            <div class="lastvideos">
-              <h1 class="videotitle">Les dernières vidéos</h1>
-              <div class="articles">
-                <div class="art1">
-                  <p>Le divertissement en ligne ?</p>
-                  <img>
-                </div>
-                <div class="art2">
-                  <p>Matériels et techniques</p>
-                  <img>
-                </div>
-                <div class="art3">
-                  <p>Aïe les clichés</p>
-                  <img>
+            <div class="containerlastvideo">
+              <h2>Meilleures vidéos</h2>
+              <div class="lastvideo">      
+                <div class="clipContainer" *ngFor="let clip of clips">
+                    <div class="clip">
+                        <iframe [src]="sanitizeURL('https://clips.twitch.tv/embed?clip='+clip.id+'&parent=localhost&parent=oznerologos.github.io')" frameborder="0" allowfullscreen></iframe>       
+                    </div>
+                    <h3>{{clip.title}} par {{clip.creator_name}} </h3>
                 </div>
               </div>
+            </div>
               <div class="planningstream">
                 <p>Planning de Stream</p>
               </div>
@@ -40,7 +35,6 @@
                 <p>Notre Équipe</p>
                
               </div>
-            </div>
         </div>
       </div>
 

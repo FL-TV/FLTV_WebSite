@@ -1,12 +1,10 @@
-<p>Les clips du sang de la veine</p>
 
-<div class="container">
+<h1>Clips de la semaine</h1>
+<div class="container">      
     <div class="clipContainer" *ngFor="let clip of clips">
         <div class="clip">
             <iframe [src]="sanitizeURL('https://clips.twitch.tv/embed?clip='+clip.id+'&parent=localhost&parent=oznerologos.github.io')" frameborder="0" allowfullscreen></iframe>       
         </div>
         <h3>{{clip.title}} par {{clip.creator_name}} </h3>
     </div>
-    
-
 </div>

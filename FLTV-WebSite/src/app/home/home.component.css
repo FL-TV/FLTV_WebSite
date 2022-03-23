@@ -24,9 +24,17 @@ h1 {
 
     margin-bottom: 5px;
     bottom: 0;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Hanson-Bold';
     color: rgb(255, 255, 255);
+}
+
+h2 {
+    bottom: 0;
+    font-size: 17px;
+    font-family: 'Hanson-Bold';
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .embed-container {
@@ -55,8 +63,8 @@ h1 {
     height: 100%;
     display: inline-block;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 4px;
+    left: 4px;
     float: left;
 }
 
@@ -76,8 +84,8 @@ h1 {
 }
 
 .contour {
-    width: 702px;
-    height: 460px;
+    width: 812px;
+    height: 458px;
     padding: 2px;
     border: 3px solid #0001CC;
     position: absolute;
@@ -85,11 +93,52 @@ h1 {
 }
 
 .contour2 {
-    width: 699px;
-    height: 457px;
-    padding: -6px;
+    width: 814px;
+    height: 462px;
     border: 2px solid #13139e;
     position: absolute;
+    top: -3px;
+    left: -1px;
+}
+
+.videotitle {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.clip{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.clip iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lastvideo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 30px;
+    margin-right: 42px;
+}
+
+.clipContainer h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Obitron-Regular';
+    color: white;
+    font-size: 10px;
+
+}
+
+.containerlastvideo {
+    margin-top: 5%;
 }
 /* div.chat-container {
     padding : 0

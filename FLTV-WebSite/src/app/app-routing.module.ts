@@ -8,7 +8,7 @@ import { StreamersComponent } from './streamers/streamers.component';
 import { VodsComponent } from './vods/vods.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: 'home', component: HomeComponent, },
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'prez', component: PrezComponent},
   {path: 'streamers', component: StreamersComponent},

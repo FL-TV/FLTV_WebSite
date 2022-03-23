@@ -1,7 +1,38 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-left: 30px;
+    margin-right: 42px;
 }
+
+body {
+    background-image: none;
+}
+
+
+@font-face {
+    font-family: 'Hanson-Bold';
+    src: url(../../assets/police/Hanson-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Orbitron-Regular';
+    src: url(../../assets/police/Orbitron-Regular.ttf);
+}
+
+h1{ 
+    margin-bottom: 5px;
+    margin-top: 2%;
+    bottom : 0;
+    font-size: 12px;
+    font-family: 'Hanson-Bold';
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
 
 
 
@@ -22,3 +53,4 @@
     text-align: center;
     margin-bottom: 100px;
 }
+

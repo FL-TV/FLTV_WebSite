@@ -82,8 +82,8 @@ p.prez {
 
 .container2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -107,7 +107,7 @@ p.prez {
 
 .streamer {
     grid-area: streamer;
-    height: 750px;
+    height:700px;
 }
 
 .left {

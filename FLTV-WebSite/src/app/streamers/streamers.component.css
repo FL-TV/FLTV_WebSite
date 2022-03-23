@@ -8,10 +8,6 @@ body {
     margin-left: auto;
 }
 
-.content {
-    margin : 5%
-}
-
 @font-face {
     font-family: 'Hanson-Bold';
     src: url(../../assets/police/Hanson-Bold.ttf);
@@ -22,73 +18,46 @@ body {
     src: url(../../assets/police/Orbitron-Regular.ttf);
 }
 
-h1{ 
-    margin-bottom: 5px;
-    margin-top: 2%;
-    bottom : 0;
-    font-size: 12px;
-    font-family: 'Hanson-Bold';
+h1 {
+    margin-bottom: 50px;
+    margin-top: 15px;
+    bottom: 0;
+    font-family: 'Orbitron-Regular';
     text-align: center;
     color: rgb(255, 255, 255);
-}
-
-h2{
-    font-size: 9px;
+    background-image: url(../../assets/img/lueur_bleu.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 p {
     margin: 0;
 }
-.content {
-    align-items: auto;
-    display : flex;
-    flex-direction: row;
-    width: 75%;
-    margin: 0 auto;
-}
 
-.streamer {
+.streamer2 {
     text-align: center;
     font-family: 'Orbitron-Regular';
     color: rgb(255, 255, 255);
 
 }
 
-div.content {
-    display: flex;
-    justify-content: center;
-}
 #imagestreamer {
-    width : 150px
+    width: 200px
 }
 
 .fleche2 {
     align-self: center;
-    margin-left : 40px
+    margin-left: 40px
 }
+
 .fleche {
     margin: auto;
     width: 30px;
     margin-right: 40px;
     cursor: pointer;
-
 }
-
-h2 {
-    font-size : 18px
-}
-
-/* img.fleche.fleched {
-    position: absolute;
-    top: 50%;
-    right: 27%;
-}
-
-img.fleche.flecheg {
-    position: absolute;
-    top: 50%;
-    left: 30%;
-} */
 
 p.prez {
     margin-top: 4%;
@@ -96,11 +65,57 @@ p.prez {
     text-align-last: center;
 }
 
-.streamers{
+.streamers {
     margin: 0 auto;
     display: block;
 }
 
-.back{
+.back {
     color: white;
+    font-family: 'Orbitron-Regular';
+    background-color: blue;
+    border-radius: 50px;
+    font-size: 25px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "left streamer right"
+        "left streamer right"
+        "return return return";
+    
+}
+
+.right {
+    justify-self: start;
+    align-self: center;
+    grid-area: right;
+}
+
+.return {
+    justify-self: center;
+    align-self: start;
+    grid-area: return;
+}
+
+.streamer {
+    grid-area: streamer;
+    height: 750px;
+}
+
+.left {
+    justify-self: end;
+    align-self: center;
+    grid-area: left;
+}
+
+map area{
+    cursor: pointer;
 }

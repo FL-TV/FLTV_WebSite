@@ -1,40 +1,50 @@
+<div class="container">
+  <div class="livecontent">
 
-    <div class="container">
-        <div class="livrcontent">
-            <div class="content">
-              <div class="live_stream">
-                <h1>Bienvenue sur la chaîne FLTV</h1>
-                  <div class="contour"><div class="contour2"></div></div>
-                    <div class="embed-container">
-                      <iframe src="https://player.twitch.tv/?channel=fltv_&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="390" width="690"></iframe>
-                  </div>
-            </div>
-              <div class="chat">
-                <h1>Chat du stream</h1>
-                  <div class="chat-container">
-                    <iframe id="chat_embed" src="https://www.twitch.tv/embed/fltv_/chat?darkpopout&parent=localhost" height="270" width="200"></iframe>
-                  </div>
-              </div>
-            </div>
-            <div class="containerlastvideo">
-              <h2>Meilleures vidéos</h2>
-              <div class="lastvideo">      
-                <div class="clipContainer" *ngFor="let clip of clips">
-                    <div class="clip">
-                        <iframe [src]="sanitizeURL('https://clips.twitch.tv/embed?clip='+clip.id+'&parent=localhost&parent=oznerologos.github.io')" frameborder="0" allowfullscreen></iframe>       
-                    </div>
-                    <h3>{{clip.title}} par {{clip.creator_name}} </h3>
-                </div>
-              </div>
-            </div>
-              <div class="planningstream">
-                <p>Planning de Stream</p>
-              </div>
-              <div class="projet">
-                <p>Notre Projet</p>
-                <p>Notre Équipe</p>
-               
-              </div>
-        </div>
+    <div class="content">
+      <div class="live_stream">
+        <h1>Bienvenue sur la chaîne FLTV</h1>
+        <!-- <div class="embed-container"> -->
+          <iframe src="https://player.twitch.tv/?channel=fltv_&parent=localhost" frameborder="0" allowfullscreen="true"
+            scrolling="no" height="390" width="690"></iframe>
+        <!-- </div> -->
       </div>
 
+
+      <div class="chat">
+        <h1>Chat du stream</h1>
+        <div class="chat-container">
+          <iframe id="chat_embed" src="https://www.twitch.tv/embed/fltv_/chat?darkpopout&parent=localhost" height="270"
+            width="400"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="containerlastvideo">
+    <h2>Meilleures vidéos</h2>
+    <div class="lastvideo">
+      <div class="clipContainer" *ngFor="let clip of clips">
+        <div class="clip">
+          <iframe
+            [src]="sanitizeURL('https://clips.twitch.tv/embed?clip='+clip.id+'&parent=localhost&parent=oznerologos.github.io')"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+        <h3>{{clip.title}} par {{clip.creator_name}} </h3>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="planningstream">
+    <p>Planning de Stream</p>
+  </div>
+  <div class="projet">
+    <p>Notre Projet</p>
+    <p>Notre Équipe</p>
+
+  </div>
+</div>

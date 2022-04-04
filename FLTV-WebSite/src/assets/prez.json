@@ -5,16 +5,14 @@
             {
                 "name": "Olivier Philibert",
                 "title":"Directeur",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "« Ce sont les vainqueurs qui écrivent l'Histoire » Call Of Duty BO2",
+                "prez": "En tant que principal acteur de ce superbe projet, l’idée était de proposer du contenu audiovisuel distrayant à travers différents profils apportant chacun une touche de leur personnalité. <br> <br> Mise à part la gestion des membres de l'équipe, mon rôle est de proposer mon point de vue du jeu vidéo à travers les différents supports qui vont être proposés au grand public ainsi qu’à travers les différentes sessions de Stream mises en avant sur la chaîne Twitch !"
             },
             {
                 "name": "Manon Boulain",
                 "title":"Co-Directrice",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "« Le plus étonnant dans les choses impossibles est qu’elles finissent par arriver. » Jean DUTOURD",
+                "prez": "Coucou tout le monde, je suis la Co-Directrice de la FLTV ! Actuellement en M2 Direction Artistique Digitale j’ai souhaité sortir de ma zone de confort afin de créer cette startup avec une équipe coup de cœur. A travers ce projet j’aimerais vous transmettre ma passion pour les jeux vidéo mais également pour le dessin sans oublier ma bonne humeur ! <br> <br> J’espère vous faire vivre la meilleure des expériences parmi nous."
             }
         ]
     },
@@ -25,36 +23,26 @@
             {
                 "name": "Baptiste Estella",
                 "title":"Lead Stream",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
-            },
-            {
-                "name": "Bastien Maurin",
-                "title":"Lead Stream",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "",
+                "prez": "Le lead stream qu'est-ce que c'est ? Eh bien notre rôle est de s'assurer que les streamers disposent de tout ce dont ils ont besoin pour que leurs streams se déroulent tel qu'ils l'entendent. <br>                Pour moi c'est un rôle plus qu'essentiel au sein d'une structure telle que la FTLV, la communication est plus fluide et les casters n'ont qu'une seule chose à penser : \"Comment on va s'amuser en live ce soir ?\". <br>                De l'analyse de log au derush des lives, là est notre rôle et je suis fier de le remplir au sein de cette équipe incroyable.                "
             }
         ]
     },
 
     {
-        "pole" : "Developpement",
+        "pole" : "Développement",
         "personnes": [
             {
                 "name": "Lorenzo Logos",
                 "title":"Lead Dev",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "“C’est en codant n’importe quoi qu’on devient n’importe ASCII” - Rémi Sécharpe",
+                "prez": "Lead dev et streamer de l’équipe. Chargé du développement du site internet et de la formation aux technologies web de Laurie notre B1 en développement. "
             },
             {
                 "name": "Laurie Jeham",
                 "title":"Développeuse",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "« Petit à petit l’oiseau fait son nid » ",
+                "prez": "Eh salut, salut, je me présente je m’appelle Laurie et je suis en première année d’info. Avec la grande aide de Lorenzo j’ai travaillé sur le site internet de notre magnifique Web TV. <br> <br> Petites informations sur ma personne, j’aime le café, les gros pulls, les jeux-vidéos et voue un culte à mon chien. La culture japonaise est aussi très importante pour moi. <br> <br> Je suis super motivée de vous montrer ce sur quoi on bosse depuis quelques mois et j’espère que vous allez adorer partager cette aventure avec nous."
             }
         ]
     },
@@ -65,23 +53,20 @@
             {
                 "name": "Gaëlle Devineau",
                 "title":"Lead Créa",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "“Je vous souhaite des sourires à n’en plus finir”",
+                "prez": "Hola, moi c'est Gaëlle, directrice artistique dans la partie Créa pour la FLTV en compagnie de mon équipe composée de Enzo et Léa.  <br> <br>               Passionnée par le design graphique et animée par une soif de curiosité sans fin, je me trouvais à la recherche d'un nouveau défi pour étendre mon potentiel créatif dans un secteur d'activité inconnu au mien. J'ai croisé la route du projet FLTV et y ai de suite adhéré grâce à l'équipe qui la compose et à la découverte du monde du gaming. Un concept décalé, une grande force de proposition en termes de contenu et une équipe surmotivée pour aboutir à ses fins, il ne m'en fallait pas plus. Il faut dire.. Un lamantin en guise de mascotte, il n'y avait rien de plus motivant pour se lancer !"
             },
             {
                 "name": "Léa ",
                 "title":"Créative",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "« Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. » (je vous épargne le reste de la citation)",
+                "prez": "Yo, moi c’est Léa Canitano, je fais partie de l’équipe Créa! <br>  Avec Gaëlle et Enzo on bosse sur toute l’identité visuelle de la Web TV, le logo, le design du site internet, les bannières…. <br> On fait notre possible pour retranscrire l’ADN de FLTV à travers nos créations ! <br> <br>  PS : Je suis la plus douée de l’équipe mais personne n’osera vous le dire."
             },
             {
                 "name": "Enzo",
                 "title":"Créatif",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "« Oh, what a day…what a lovely day ! » (Mad max : Fury Road = mon bijou)",
+                "prez": "Salut, c’est Enzo je suis le fameux B3 de l’équipe créa on a dû vous parler de moi, concrètement je suis un génie, drôle, playboy, charismatique. La suite Adobe c’est un peu une extension de moi-même, comme l’armure de Vader, ça me rend plus fort et ambitieux. Mon seul défaut je pense serait d’avoir acheté des skins sur Fortnite…  <br> <br>On forme la sainte trinité avec Gaelle et Léa, ce qui nous permet de donner le meilleur de nos cerveaux d’artiste pour toute la créa de la web TV. On vous réserve encore des surprises… Bisous…"
             }
         ]
     },
@@ -92,23 +77,20 @@
             {
                 "name": "Dorian Delcroix",
                 "title":"Lead Market",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "“Il n’y a rien de plus précieux en ce monde que le sentiment d’exister pour quelqu’un”",
+                "prez": "Salut moi c'est Dorian, actuellement en M2 communication 360° je suis le chef du pôle Marketing et communication. Mon rôle dans ce pôle est de réfléchir à toute la stratégie et à sa mise en œuvre afin de mettre en lumière du mieux possible la Web TV. Je suis passionné depuis ma plus tendre enfance par le monde du jeu vidéo et aujourd’hui par le streaming. C’était donc une évidence de rejoindre ce projet qui intègre ma passion et mon avenir pro. J’espère donc vous voir très bientôt sur les réseaux sociaux de la chaîne !"
             },
             {
                 "name": "Esteve Quiatol",
                 "title":"Market",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "“No one can win every battle. But, no man should fall without a struggle.”",
+                "prez": "Hey ! Moi c’est Esteve j’suis l’une des 3 personnes au poste de Market/Com, en gros je m’occupe de la communication (Cqfd) et de gérer les R.S. de la WebTV j’ai par exemple aidé sur les études marchés et sur le sondage qu’on a fait et accessoirement, je suis le clown du trio des Market/Com. Plus personnellement je suis assez extravertie, j’aime bien tester plein de truc différent même si parfois, je finis éparpiller dans mes activités et je suis un fan de comics notamment Marvel et précisément des run sur Spider-Man."
             },
             {
                 "name": "Sam Aguera",
                 "title":"Market",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "quote": "“ L’important c’est l’essentiel et ça c’est le principal “ ",
+                "prez": "Salut moi c’est Sam, de l’équipe Market & Com. Grand Fan de jeux vidéo et issu d’un milieu Sportif, Musical et Artistique, c’est en communiquant autour de créations audiovisuelles que je trouve mon bonheur. Hâte de vous partager mes plus beaux Best-of et au plaisir de vous retrouver sur nos réseaux sociaux !"
             }
         ]
     },
@@ -118,24 +100,21 @@
         "personnes": [
             {
                 "name": "Lucy Riess",
-                "title":"coup dur",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "title":"Lead 3D",
+                "quote": "« Un grand pouvoir implique de grandes responsabilités. »",
+                "prez": "Hello, je m'appelle RIESS Lucy, je suis en M1 animation 3D et jeux vidéo.  <br> <br> Je me suis principalement occupée de produire les overlays, ainsi que de superviser la création des avatars et de l'image de pause du stream (modélisation 3D). <br> <br>  J'espère que tout cela va vous plaire, on a tout fait pour que ce soit le cas, y a plus qu'à profiter des streams maintenant !"
             },
             {
                 "name": "Lison Blazikowski",
-                "title":"coup dur",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "title":"Artiste 3D",
+                "quote": "",
+                "prez": "Hello ! <br> <br>  C'est Lison de la B2 d'animation 3D, j'adore le sculpt et dessiner. <br> <br>  Et pour ce qui est de mes ambitions, le meilleur que je puisse imaginer serait d'être Cara modeler chez une grande boite d'FX/animation"
             },
             {
                 "name": "Théo Scorletti",
-                "title":"coup dur",
-                "quote": "blablabla",
-                "prez": "lalalalala",
-                "img": ""
+                "title":"Artiste 3D",
+                "quote": "",
+                "prez": "Salut ! Vous pouvez aussi me voir sous le pseudo Theal. <br> Je suis un 3D artist et actuellement étudiant en 2e année en filière 3D jeux vidéo. Je fais partie du pôle 3D et nous avons pu réaliser ensemble les avatars ainsi que la réalisation de modèle 3D à inclure au stream. <br> <br> Vous voulez connaître mon plus grand kiff personnel ? Dessiner mes propres histoires épiques dans une ambiance mélangeant fantaisie et néons."
             }
         ]
     }
